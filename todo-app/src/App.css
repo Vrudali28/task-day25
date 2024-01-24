@@ -1,0 +1,101 @@
+body{
+  background-color:white;
+}
+.main-container{
+
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.center-container{
+height: 500px;
+width: 100%;
+display: flex;
+
+}
+.list-body{
+
+  height: 250px;
+  background-color: #b5e7a0;
+  width: 300px;
+  
+  border: 10px;
+  border-color: black;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  
+
+}
+.input-box-todo{
+  margin: 10px 10px 10px 10px;
+  height: 25px;
+  width: 250px;
+  border: 1px solid MediumSeaGreen; 
+  border-radius: 10px;   
+  padding: 8px;
+}
+.input-box-todo-discription{
+  
+ 
+  margin: 10px 10px 10px 10px;
+  height: 25px;
+  width: 250px;
+  border: 1px solid MediumSeaGreen; 
+  border-radius: 10px;   
+  padding: 8px;
+}
+.add-btn{
+
+  margin: 10px 10px 10px 10px;
+  height: 43px;
+  width: 100px;
+  border: 1px solid MediumSeaGreen; 
+  border-radius: 10px;   
+  padding: 8px;
+  background-color:MediumSeaGreen;
+  cursor: pointer;
+}
+.input-container{
+align-items: center;
+justify-content: center;
+padding: 20px 70px 20px 200px;
+
+}
+.app-heading{
+justify-content: center;
+margin-left: 450px;
+}
+.delete-btn{
+  margin: 50px 10px 10px 40px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid red; 
+  border-radius: 10px;   
+  
+  background-color:red;
+  cursor: pointer;
+
+}
+.edit-btn{
+  margin: 50px 10px 10px 10px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid MediumSeaGreen; 
+  border-radius: 10px;   
+  
+  background-color: mediumseagreen;
+  cursor: pointer;
+
+}
+.save-btn{
+  margin: 50px 10px 10px 10px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid MediumSeaGreen; 
+  border-radius: 10px;   
+  
+  background-color: mediumseagreen;
+  cursor: pointer;
+
+}
